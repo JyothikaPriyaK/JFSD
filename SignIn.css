@@ -1,0 +1,149 @@
+/* SignIn.css */
+
+/* Overall page background */
+body {
+  background-color: beige;
+  
+  margin: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: beige;
+  color: #a70a4b;
+  font-weight: bold;
+}
+
+.left-corner {
+  color: #a70a4b;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-corner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.right-corner ul li {
+  margin-left: 20px;
+  color: #a70a4b;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.right-corner ul li:hover {
+  text-decoration: underline;
+}
+
+/* Sign-in container */
+.signin-container {
+  background-color: beige;
+  border: 2px solid #a70a4b;
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  margin: 110px 900px; /*left sided */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Heading color */
+.signin-container h2 {
+  color: #a70a4b;
+}
+
+.page-image {
+  width: 300px;             /* Set the image width */
+  height: auto;             /* Keep aspect ratio */
+  margin-right: 30px;       /* Add space between image and form */
+}
+
+
+/* Form labels */
+form label {
+  display: block;
+  margin: 15px 0 5px;
+  color: #a70a4b;
+}
+
+/* Form inputs */
+form input {
+  width: 80%;  /* Reduced the width */
+  padding: 8px;  /* Adjusted padding to reduce height */
+  border-radius: 5px;
+  border: 1px solid #a70a4b;
+  margin-bottom: 15px;
+  font-size: 14px; /* Adjust font size if needed */
+}
+
+/* Sign-in button */
+form button {
+  background-color: #a70a4b;
+  color: white;
+  padding: 10px 20px;
+  border: #a70a4b;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #890b3e;
+}
+
+/* Forgot password link */
+.forgot-password {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.forgot-password a {
+  color: #a70a4b;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Sign-up link */
+.signup-text {
+  margin-top: 15px;
+  color: #a70a4b;
+}
+
+.signup-text a {
+  color: #a70a4b;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* Account type radio buttons styling */
+.account-type {
+  display: flex;
+  justify-content: space-around; /* Space out the labels */
+  margin: 15px 0;
+}
+
+.account-type label {
+  margin: 0 10px; /* Add some space around each label */
+  color: #a70a4b;
+}
+
+/* Additional styling for inputs */
+form input::placeholder {
+  color: #a70a4b;
+}

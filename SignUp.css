@@ -1,0 +1,103 @@
+body {
+    background-color: #a70a4b;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+.back-button {
+    background-color: beige; /* No background */
+    border: none; /* No border */
+    color: #a70a4b; /* Color for the text */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    margin: 20px; /* Margin to space it from the top */
+}
+
+.back-button:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.signup-container {
+    background-color: beige;
+     /* Background color for the signup box */
+    border: 2px solid black; /* Black outline for the signup box */
+    border-radius: 10px;
+    width: 400px; /* Width of the signup container */
+    padding: 20px;
+    text-align: center;
+    margin: 100px auto; /* Centered */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-container h2 {
+    color: #a70a4b; /* Text color for the heading */
+  }
+  
+  form label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #a70a4b; /* Text color for labels */
+  }
+  
+  form input {
+    width: 70%; /* Set the width to a smaller percentage */
+    max-width: 200px; /* Set a maximum width for the input */
+    padding: 8px; /* Adjust padding */
+    border-radius: 5px;
+    border: #a70a4b; /* Border color for inputs */
+    margin-bottom: 15px;
+  }
+  
+  form button {
+    background-color: #a70a4b; /* Button background color */
+    color: beige; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  form button:hover {
+    background-color: #a70a4b; /* Button hover color */
+  }
+  
+  /* Forgot Password style */
+  .forgot-password {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .forgot-password a {
+    color: #a70a4b; /* Forgot password link color */
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .signup-text {
+    margin-top: 15px;
+    color: #a70a4b; /* Signup text color */
+  }
+  
+  .signup-text a {
+    color: #a70a4b; /* Signup link color */
+    text-decoration: none;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Role selection styles */
+  .role-selection {
+    display: flex;
+    justify-content: space-around; /* Space items evenly */
+    margin-bottom: 20px; /* Spacing below the role selection */
+  }
+  
+  .role-selection label {
+    color: #a70a4b; /* Text color for role selection */
+  }
+  
